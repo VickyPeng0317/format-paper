@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>NUTC Peng</title>
+  <title>NUTC Peng 小工具</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -23,14 +23,14 @@
 </style>
 
 <div class="title text-center">
-  <h1>論文斷句 + 分行</h1>
+  <h1>論文斷句分行</h1>
 </div>
   
 <div id="app" class="container">
   <div class="row" style="height: 65vh;">
     <div class="col-6">
         <p>原文</p>
-        <input v-model="inputText" v-on:keyup="formatText" style="width: 100%;"/>
+        <input v-model="inputText" v-on:keyup="formatText" style="width: 100%;" placeholder="請貼上您的論文段落" />
     </div>
     <div class="col-6">
         <p>結果</p>
